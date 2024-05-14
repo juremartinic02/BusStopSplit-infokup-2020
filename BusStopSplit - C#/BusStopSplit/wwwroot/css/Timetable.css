@@ -1,0 +1,84 @@
+﻿// CSS kod koji object zadužen za stiliziranje tablice
+
+.timetable-bus-name {
+    font-family: serif;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 10px;
+    padding: 5px 15px 5px 15px;
+    background-color: darkblue;
+    color: white;
+}
+
+.timetable-working-day {
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+    font-family: serif;
+    text-align:center;
+}
+
+.timetable-saturday {
+    padding: 10px 10px 10px 10px;
+    text-align:center;
+    font-size: 20px;
+    font-family: serif;
+}
+
+.timetable-sunday-and-holiday {
+    padding: 10px 10px 10px 10px;
+    text-align:center;
+    font-size: 20px;
+    font-family: serif;
+}
+
+.timetable-darkblue-box {
+    padding: 5px 15px 5px 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: white;
+    background-color: darkblue;
+}
+
+.notifications-orangered-box {
+    padding: 5px 15px 5px 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: white;
+    background-color: orangered;
+}
+
+.timetable-no-box-space {
+    margin-bottom: 28px;
+    margin-top: 28px;
+    color:white;
+    border: none;
+}
+
+.timetable-box-bordered {
+    padding: 5px 15px 5px 15px;
+    margin-bottom: 9px;
+    margin-top: 9px;
+    color: white;
+    background-color: darkblue;
+    border: 2px dotted;
+    border-color: orangered;
+}
+
+.timetable-box-bordered-orange {
+    padding: 5px 15px 5px 15px;
+    margin-bottom: 9px;
+    margin-top: 9px;
+    color: white;
+    background-color: orangered;
+    border: 2px dotted;
+    border-color: yellow;
+}
+
+.timetable-margine-between-box{
+    margin-left:5px;
+}
+
+.align {
+    text-align: center;
+    vertical-align: middle;
+}

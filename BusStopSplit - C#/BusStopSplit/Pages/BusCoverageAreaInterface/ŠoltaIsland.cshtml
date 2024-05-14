@@ -1,0 +1,67 @@
+﻿@page
+@model BusStopSplit.Pages.BusCoverageAreaInterface.ŠoltaIslandModel
+@{
+}
+
+@*
+    Kod koji kreira listu autobusa koji prometuju otokom Šoltom
+*@
+
+<link rel="stylesheet" href="~/css/TextAttributes.css" />
+<div class="container-fluid" style="border-style:solid; border-color:darkblue; margin-top:20px;">
+
+    <div class="card" style="margin-top:10px; background-color:yellow; border:none;">
+        <h1 class="busList-h1 " style="">Šolta Island</h1>
+    </div>
+
+    <div>
+        <table class="table table-borderless">
+
+            <tr class="city-border d-flex flex-row align-items-center">
+                <td class="busList-table-id"></td>
+                <td class="busList-table-name">MASLINICA - DONJE SELO - SREDNJE SELO - GROHOTE - ROGAČ</td>
+                <td>
+                    <a asp-page="/ŠoltaIsland/TimetableBusIdMaslinica" class="btn"><img src="~/Images/clock1.png" width="29" height="29" /></a>
+                </td>
+                <td>
+                    <a asp-page="./Favourites" class="btn"><img src="~/Images/star4.png" width="25" height="25" /></a>
+                </td>
+            </tr>
+
+            <tr class="city-border d-flex flex-row align-items-center">
+                <td class="busList-table-id"></td>
+                <td class="busList-table-name">ROGAČ - GROHOTE - SREDNJE SELO - DONJE SELO - MASLINICA</td>
+                <td>
+                    <a asp-page="/ŠoltaIsland/TimetableBusIdRogač1" class="btn"><img src="~/Images/clock1.png" width="29" height="29" /></a>
+                </td>
+                <td>
+                    <a asp-page="./Favourites" class="btn"><img src="~/Images/star4.png" width="25" height="25" /></a>
+                </td>
+            </tr>
+
+            <tr class="city-border d-flex flex-row align-items-center">
+                <td class="busList-table-id"></td>
+                <td class="busList-table-name">STOMORSKA - GORNJE SELO - NEČUJAM - GROHOTE - ROGAČ</td>
+                <td>
+                    <a asp-page="/ŠoltaIsland/TimetableBusIdStomorska" class="btn"><img src="~/Images/clock1.png" width="29" height="29" /></a>
+                </td>
+                <td>
+                    <a asp-page="./Favourites" class="btn"><img src="~/Images/star4.png" width="25" height="25" /></a>
+                </td>
+            </tr>
+
+            <tr class="d-flex flex-row align-items-center">
+                <td class="busList-table-id"></td>
+                <td class="busList-table-nameRogač2">ROGAČ - GROHOTE - NEČUJAM - GORNJE SELO - STOMORSKA</td>
+                <td>
+                    <a asp-page="/ŠoltaIsland/TimetableBusIdRogač2" class="btn"><img src="~/Images/clock1.png" width="29" height="29" /></a>
+                </td>
+                <td>
+                    <a asp-page="./Favourites" class="btn"><img src="~/Images/star4.png" width="25" height="25" /></a>
+                </td>
+            </tr>
+
+
+        </table>
+    </div>
+</div>

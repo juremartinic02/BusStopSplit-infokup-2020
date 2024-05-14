@@ -1,0 +1,15 @@
+﻿//CSS za stiliziranje mape
+
+.map-menu-icon {
+    font-size: 2rem;
+}
+.test-icon > div {
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 50%;
+    width: 27px;
+    height: 27px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+}

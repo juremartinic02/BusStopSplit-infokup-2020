@@ -1,0 +1,38 @@
+﻿@page
+@model BusStopSplit.Pages.Interface.TimetableModel
+@{
+}
+
+@* 
+    kod koji prikazuje prijašnje stvaranje tablica koako bi Povjerenstvo moglo vidjeti napredak    
+*@
+
+<div class="container-fluid">
+    <div>
+        <h1 class="timetable-h1">Timetable</h1>
+    </div>
+
+    <div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col" class="timetable-th">WORKDAY</th>
+                    <th scope="col" class="timetable-th">SATURDAY</th>
+                    <th scope="col" class="timetable-th">SUNDAY AND HOLIDAYS</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var entry in Model.Entries)
+                {
+                    <tr>
+                        <td scope="row"></td>
+                        <td scope="row" class="timetable-td">@entry.WorkingDay</td>
+                        <td scope="row" class="timetable-td">@entry.Saturday</td>
+                        <td scope="row" class="timetable-td">@entry.Sunday</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

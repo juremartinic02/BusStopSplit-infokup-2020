@@ -1,0 +1,156 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+@*
+    Kod za kreiranje početne stranice
+*@
+<link rel="stylesheet" href="~/css/About.css" />
+
+<div class="container-fluid" style="border-style:solid; border-color:darkblue; margin-top:20px;">
+
+    <div id="carousel-example-2" class="carousel slide carousel-fade m-2" data-ride="carousel">
+
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-2" data-slide-to="1"></li>
+            <li data-target="#carousel-example-2" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner" style="margin-top:20px;" role="listbox">
+            <div class="carousel-item active">
+                <div class="view">
+                    <img class="d-block w-100" src="~/Images/Bss2.jpg"
+                         alt="First slide">
+                    <div class="mask rgba-black-light"></div>
+                </div>
+                <div class="carousel-caption">
+                    <h3 class="h3-responsive">Welcome to BusStopSplit</h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+
+                <div class="view">
+                    <img class="d-block w-100" src="~/Images/Bss.jpg"
+                         alt="Second slide">
+                    <div class="mask rgba-black-strong"></div>
+                </div>
+                <div class="carousel-caption">
+                    <h3 class="h3-responsive"></h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+
+                <div class="view">
+                    <img class="d-block w-100" src="~/Images/Bss1.jpg"
+                         alt="Third slide">
+                    <div class="mask rgba-black-slight"></div>
+                </div>
+                <div class="carousel-caption">
+                    <h3 class="h3-responsive"></h3>
+                </div>
+            </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+
+    </div>
+
+
+
+    <div class="jumbotron about-bg-color-jumbotron m-4">
+        <div class="card about-card">
+            <div class="about-about">About</div>
+        </div>
+    </div>
+
+    <div class="about-p1">
+        <b>B</b>us<b>S</b>top<b>S</b>plit is a project that has been developed for all citizens or turist that are using local buses.
+        It provides users to see where is their bus located in that moment.
+    </div>
+
+    <div class="d-flex flex-row bd-highlight mb-3 p-3">
+        <hr class="about-hr1" />
+        <img src="~/Images/bus_station.png" class="about-busStation-img" />
+        <hr class="about-hr2" />
+    </div>
+
+    <div>
+        <div class="about-about-the-app">About the application</div>
+    </div>
+
+    <div class="d-flex flex-row justify-content-between align-items-center">
+        <div class="d-flex flex-column">
+            <div class="d-flex flex-row bd-highlight mb-3 p-3">
+                <img src="~/Images/clock2.png" class="about-clock2-img" />
+                <p>
+                    This app has been developed in 2019 to help everyday passengers of Promet Split,<br />
+                    and also to visitors so that they could get around the city and organise their time better.
+                </p>
+            </div>
+
+            <div class="d-flex flex-row bd-highlight mb-3 p-3">
+                <img src="~/Images/lightBulb.png" class="about-lightBulb-img" />
+                <p>
+                    I came up with this idea in May and I started working right away.<br />
+                    Feeling the problem on my own skin I have decided, as a young programmer,<br />
+                    to resolve it.
+                </p>
+            </div>
+            <div class="d-flex flex-row bd-highlight mb-3 p-3">
+                <img src="~/Images/question.png" class="about-question-img" />
+                <p>
+                    With BusStopSplit you don't need to hurry to get on the bus.<br />
+                    If you decide to use BSS you can follow your bus of choice,<br />
+                    and see it's current position in real time.
+                </p>
+            </div>
+        </div>
+        <div><img src="~/Images/Promet5.jpg" style="width:600px; height:400px;" /></div>
+    </div>
+    <hr class="about-hr3" />
+
+    <div>
+        <div class="about-future-development">Future development</div>
+        <div class="d-flex align-items-center justify-content-md-around">
+            <div>
+                <p>
+                    In the near future, BusStopSplit will sure be used by many citizens.<br />
+                    They will be able to add their most used buses to "Favourites".<br />
+                    I will put Arduino on every bus and add marks of four tariff zones to the map.<br />
+                    I will also edit the map for the maximum interaction.<br />
+                </p>
+            </div>
+            <div><img src="~/Images/Presentation2.jpg" class="about-img-future" /></div>
+        </div>
+    </div>
+
+    <hr class="about-hr3" />
+
+    <div>
+        <div class="about-about-me">About me</div>
+        <div class="d-sm-flex align-items-sm-center justify-content-sm-around" style="margin-bottom:20px;">
+            <div>
+                <img src="~/Images/jureImg.jpeg" class="about-jureImg" />
+            </div>
+            <div>
+                <p>
+                    My name is Jure Martinić and I was born on the 18th of August of 2001 in capital city of Croatia, Zagreb.<br />
+                    The first four years of my life I spent in Australia and when I came back, at the age of 12, I descovered that my passion is programming.<br /> 
+                    When I turned 15 I started developing web apps in .NET platform.<br />
+                    Last year, I participated in a competition called "Software development" with my app "CryptoCode".<br />
+                    I know how to work in C#, Unity, HTML5, CSS.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</div>

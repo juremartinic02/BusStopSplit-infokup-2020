@@ -1,0 +1,310 @@
+﻿@page
+@model BusStopSplit.Pages.BusCoverageAreaInterface.CityAreaSplitModel
+@{
+}
+
+@*
+    Kod koji kreira listu autobusa koji prometuju užim grada
+*@
+
+<link rel="stylesheet" href="~/css/TextAttributes.css" />
+<div class="container-fluid" style="border-style:solid; border-color:darkblue; margin-top:20px;">
+
+    <div class="card" style="margin-top:10px; background-color:yellow; border:none;">
+        <h1 class="busList-h1" style="">City Area Split</h1>
+    </div>
+
+    <div>
+        <table class="table table-borderless">
+
+            <tr class="city-border d-flex flex-row align-items-center">
+                <td class="busList-table-id">3</td>
+                <td class="busList-table-name">BRDA - LOVRINAC</td>
+                <td>
+                    <a asp-page="/CityAreaSplit/TimetableBusId3" class="btn"><img src="~/Images/clock1.png" width="29" height="29" /></a>
+                </td>
+                <td align="center">
+                    <a asp-page="./Favourites" class="btn"><img src="~/Images/star4.png" width="25" height="25" /></a>
+                </td>
+            </tr>
+
+            <tr class="city-border d-flex flex-row align-items-center">
+                <td class="busList-table-id">3</td>
+                <td class="busList-table-name">LOVRINAC - BRDA</td>
+                <td>
+                    <a asp-page="/CityAreaSplit/TimetableBusId3_1" class="btn"><img src="~/Images/clock1.png" width="29" height="29" /></a>
+                </td>
+                <td>
+                    <a asp-page="./Favourites" class="btn"><img src="~/Images/star4.png" width="25" height="25" /></a>
+                </td>
+            </tr>
+
+            <tr class="city-border d-flex flex-row align-items-center">
+                <td class="busList-table-id">6</td>
+                <td class="busList-table-name">KILA - VUKOVARSKA - HNK - KILA</td>
+                <td>
+                    <a asp-page="/CityAreaSplit/TimetableBusId6" class="btn"><img src="~/Images/clock1.png" width="29" height="29" /></a>
+                </td>
+                <td>
+                    <a asp-page="./Favourites" class="btn"><img src="~/Images/star4.png" width="25" height="25" /></a>
+                </td>
+            </tr>
+
+            <tr class="city-border d-flex flex-row align-items-center">
+                <td class="busList-table-id">7</td>
+                <td class="busList-table-name">ŽNJAN - ZVONČAC - ŽNJAN</td>
+                <td>
+                    <a asp-page="/CityAreaSplit/TimetableBusId7"><img src="~/Images/clock1.png" width="29" height="29" /></a>
+                </td>
+                <td>
+                    <a asp-page="./Favourites" class="btn"><img src="~/Images/star4.png" width="25" height="25" /></a>
+                </td>
+            </tr>
+
+            <tr class="city-border d-flex flex-row align-items-center">
+                <td class="busList-table-id">8</td>
+                <td class="busList-table-name">ŽNJAN - TRŽNICA - ZVONČAC - TRŽNICA - ŽNJAN</td>
+                <td>
+                    <a asp-page="/CityAreaSplit/TimetableBusId8" class="btn"><img src="~/Images/clock1.png" width="29" height="29" /></a>
+                </td>
+                <td>
+                    <a asp-page="./Favourites" class="btn"><img src="~/Images/star4.png" width="25" height="25" /></a>
+                </td>
+            </tr>
+
+            <tr class="city-border d-flex flex-row align-items-center">
+                <td class="busList-table-id">9</td>
+                <td class="busList-table-name">RAVNE NJIVE - TR.LUKA - RAVNE NJIVE</td>
+                <td>
+                    <a asp-page="/CityAreaSplit/TimetableBusId9" class="btn"><img src="~/Images/clock1.png" width="29" height="29" /></a>
+                </td>
+                <td>
+                    <a asp-page="./Favourites" class="btn"><img src="~/Images/star4.png" width="25" height="25" /></a>
+                </td>
+            </tr>
+
+            <tr class="city-border d-flex flex-row align-items-center">
+                <td class="busList-table-id">11</td>
+                <td class="busList-table-name">RAVNE NJIVE-PUJANKE - HNK - RAVNE NJIVE</td>
+                <td>
+                    <a asp-page="/CityAreaSplit/TimetableBusId11" class="btn"><img src="~/Images/clock1.png" width="29" height="29" /></a>
+                </td>
+                <td>
+                    <a asp-page="./Favourites" class="btn"><img src="~/Images/star4.png" width="25" height="25" /></a>
+                </td>
+            </tr>
+
+            <tr class="city-border d-flex flex-row align-items-center">
+                <td class="busList-table-id">12</td>
+                <td class="busList-table-name">SV. FRANE - BENE</td>
+                <td>
+                    <a asp-page="/CityAreaSplit/TimetableBusId12" class="btn"><img src="~/Images/clock1.png" width="29" height="29" /></a>
+                </td>
+                <td>
+                    <a asp-page="./Favourites" class="btn"><img src="~/Images/star4.png" width="25" height="25" /></a>
+                </td>
+            </tr>
+
+            <tr class="city-border d-flex flex-row align-items-center">
+                <td class="busList-table-id">12</td>
+                <td class="busList-table-name">BENE - (MEJE) - SV.FRANE</td>
+                <td>
+                    <a asp-page="/CityAreaSplit/TimetableBusId12_1" class="btn"><img src="~/Images/clock1.png" width="29" height="29" /></a>
+                </td>
+                <td>
+                    <a asp-page="./Favourites" class="btn"><img src="~/Images/star4.png" width="25" height="25" /></a>
+                </td>
+            </tr>
+
+            <tr class="city-border d-flex flex-row align-items-center">
+                <td class="busList-table-id">14</td>
+                <td class="busList-table-name">BRDA - KOPILICA - DUBROVAČKA - BOLNICE - ŽNJAN - DUILOVO</td>
+                <td>
+                    <a asp-page="/CityAreaSplit/TimetableBusId14" class="btn"><img src="~/Images/clock1.png" width="29" height="29" /></a>
+                </td>
+                <td>
+                    <a asp-page="./Favourites" class="btn"><img src="~/Images/star4.png" width="25" height="25" /></a>
+                </td>
+            </tr>
+
+            <tr class="city-border d-flex flex-row align-items-center">
+                <td class="busList-table-id">14</td>
+                <td class="busList-table-name">DUILOVO - ŽNJAN - BOLNICE - DUBROVAČKA - KOPILICA - BRDA</td>
+                <td>
+                    <a asp-page="/CityAreaSplit/TimetableBusId14_1" class="btn"><img src="~/Images/clock1.png" width="29" height="29" /></a>
+                </td>
+                <td>
+                    <a asp-page="./Favourites" class="btn"><img src="~/Images/star4.png" width="25" height="25" /></a>
+                </td>
+            </tr>
+
+            <tr class="city-border d-flex flex-row align-items-center">
+                <td class="busList-table-id">15</td>
+                <td class="busList-table-name">DUILOVO - ŽNJAN - TR. LUKA - DUILOVO</td>
+                <td>
+                    <a asp-page="/CityAreaSplit/TimetableBusId15" class="btn"><img src="~/Images/clock1.png" width="29" height="29" /></a>
+                </td>
+                <td>
+                    <a asp-page="./Favourites" class="btn"><img src="~/Images/star4.png" width="25" height="25" /></a>
+                </td>
+            </tr>
+
+            <tr class="city-border d-flex flex-row align-items-center">
+                <td class="busList-table-id">17</td>
+                <td class="busList-table-name">SPINUT - LORA - TRSTENIK - LORA -SPINUT</td>
+                <td>
+                    <a asp-page="/CityAreaSplit/TimetableBusId17" class="btn"><img src="~/Images/clock1.png" width="29" height="29" /></a>
+                </td>
+                <td>
+                    <a asp-page="./Favourites" class="btn"><img src="~/Images/star4.png" width="25" height="25" /></a>
+                </td>
+            </tr>
+
+            <tr class="city-border d-flex flex-row align-items-center">
+                <td class="busList-table-id">18</td>
+                <td class="busList-table-name">BRNIK - HNK - BRNIK</td>
+                <td>
+                    <a asp-page="/CityAreaSplit/TimetableBusId18" class="btn"><img src="~/Images/clock1.png" width="29" height="29" /></a>
+                </td>
+                <td>
+                    <a asp-page="./Favourites" class="btn"><img src="~/Images/star4.png" width="25" height="25" /></a>
+                </td>
+            </tr>
+
+            <tr class="city-border d-flex flex-row align-items-center">
+                <td class="busList-table-id">20</td>
+                <td class="busList-table-name">RAVNE NJIVE - ZVONČAC</td>
+                <td>
+                    <a asp-page="/CityAreaSplit/TimetableBusId20" class="btn"><img src="~/Images/clock1.png" width="29" height="29" /></a>
+                </td>
+                <td>
+                    <a asp-page="./Favourites" class="btn"><img src="~/Images/star4.png" width="25" height="25" /></a>
+                </td>
+            </tr>
+
+            <tr class="city-border d-flex flex-row align-items-center">
+                <td class="busList-table-id">21</td>
+                <td class="busList-table-name">SV.FRANE - MEJE - SV.FRANE</td>
+                <td>
+                    <a asp-page="/CityAreaSplit/TimetableBusId21" class="btn"><img src="~/Images/clock1.png" width="29" height="29" /></a>
+                </td>
+                <td>
+                    <a asp-page="./Favourites" class="btn"><img src="~/Images/star4.png" width="25" height="25" /></a>
+                </td>
+            </tr>
+
+            <tr class="city-border d-flex flex-row align-items-center">
+                <td class="busList-table-id">24</td>
+                <td class="busList-table-name">SPLIT - KOPILICA - DOM. RATA - STOBREČ - TTTS</td>
+                <td>
+                    <a asp-page="/CityAreaSplit/TimetableBusId24" class="btn"><img src="~/Images/clock1.png" width="29" height="29" /></a>
+                </td>
+                <td>
+                    <a asp-page="./Favourites" class="btn"><img src="~/Images/star4.png" width="25" height="25" /></a>
+                </td>
+            </tr>
+
+            <tr class="city-border d-flex flex-row align-items-center">
+                <td class="busList-table-id">24</td>
+                <td class="busList-table-name">TTTS - STOBREČ - DOM. RATA - KOPILICA - SPLIT</td>
+                <td>
+                    <a asp-page="/CityAreaSplit/TimetableBusId24_1" class="btn"><img src="~/Images/clock1.png" width="29" height="29" /></a>
+                </td>
+                <td>
+                    <a asp-page="./Favourites" class="btn"><img src="~/Images/star4.png" width="25" height="25" /></a>
+                </td>
+            </tr>
+
+            <tr class="city-border d-flex flex-row align-items-center">
+                <td class="busList-table-id">25</td>
+                <td class="busList-table-name">SPLIT - STOBREČ</td>
+                <td>
+                    <a asp-page="/CityAreaSplit/TimetableBusId25" class="btn"><img src="~/Images/clock1.png" width="29" height="29" /></a>
+                </td>
+                <td>
+                    <a asp-page="./Favourites" class="btn"><img src="~/Images/star4.png" width="25" height="25" /></a>
+                </td>
+            </tr>
+
+            <tr class="city-border d-flex flex-row align-items-center">
+                <td class="busList-table-id">25</td>
+                <td class="busList-table-name">STOBREČ - SPLIT</td>
+                <td>
+                    <a asp-page="/CityAreaSplit/TimetableBusId25_1" class="btn"><img src="~/Images/clock1.png" width="29" height="29" /></a>
+                </td>
+                <td>
+                    <a asp-page="./Favourites" class="btn"><img src="~/Images/star4.png" width="25" height="25" /></a>
+                </td>
+            </tr>
+
+            <tr class="city-border d-flex flex-row align-items-center">
+                <td class="busList-table-id">26</td>
+                <td class="busList-table-name">SPLIT - KAMEN</td>
+                <td>
+                    <a asp-page="/CityAreaSplit/TimetableBusId26" class="btn"><img src="~/Images/clock1.png" width="29" height="29" /></a>
+                </td>
+                <td>
+                    <a asp-page="./Favourites" class="btn"><img src="~/Images/star4.png" width="25" height="25" /></a>
+                </td>
+            </tr>
+
+            <tr class="city-border d-flex flex-row align-items-center">
+                <td class="busList-table-id">26</td>
+                <td class="busList-table-name">KAMEN - SPLIT</td>
+                <td>
+                    <a asp-page="/CityAreaSplit/TimetableBusId26_1" class="btn"><img src="~/Images/clock1.png" width="29" height="29" /></a>
+                </td>
+                <td>
+                    <a asp-page="./Favourites" class="btn"><img src="~/Images/star4.png" width="25" height="25" /></a>
+                </td>
+            </tr>
+
+            <tr class="city-border d-flex flex-row align-items-center">
+                <td class="busList-table-id">27</td>
+                <td class="busList-table-name">SPLIT - KOREŠNICA - ŽRNOVNICA</td>
+                <td>
+                    <a asp-page="/CityAreaSplit/TimetableBusId27" class="btn"><img src="~/Images/clock1.png" width="29" height="29" /></a>
+                </td>
+                <td>
+                    <a asp-page="./Favourites" class="btn"><img src="~/Images/star4.png" width="25" height="25" /></a>
+                </td>
+            </tr>
+
+            <tr class="city-border d-flex flex-row align-items-center">
+                <td class="busList-table-id">27</td>
+                <td class="busList-table-name">ŽRNOVNICA - KOREŠNICA - SPLIT</td>
+                <td>
+                    <a asp-page="/CityAreaSplit/TimetableBusId27_1" class="btn"><img src="~/Images/clock1.png" width="29" height="29" /></a>
+                </td>
+                <td>
+                    <a asp-page="./Favourites" class="btn"><img src="~/Images/star4.png" width="25" height="25" /></a>
+                </td>
+            </tr>
+
+            <tr class="city-border d-flex flex-row align-items-center">
+                <td class="busList-table-id">39</td>
+                <td class="busList-table-name">LORA - POLJIČKA - TTTS - LORA</td>
+                <td>
+                    <a asp-page="/CityAreaSplit/TimetableBusId39" class="btn"><img src="~/Images/clock1.png" width="29" height="29" /></a>
+                </td>
+                <td>
+                    <a asp-page="./Favourites" class="btn"><img src="~/Images/star4.png" width="25" height="25" /></a>
+                </td>
+            </tr>
+
+            <tr class="d-flex flex-row align-items-center">
+                <td class="busList-table-id">40</td>
+                <td class="busList-table-name">TRAJ. LUKA - KILA - TRAJ. LUKA</td>
+                <td>
+                    <a asp-page="/CityAreaSplit/TimetableBusId40" class="btn"><img src="~/Images/clock1.png" width="29" height="29" /></a>
+                </td>
+                <td>
+                    <a asp-page="./Favourites" class="btn"><img src="~/Images/star4.png" width="25" height="25" /></a>
+                </td>
+            </tr>
+
+
+
+        </table>
+    </div>
+</div>

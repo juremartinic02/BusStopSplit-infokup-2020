@@ -1,0 +1,8 @@
+C:\Users\jurem\OneDrive\Desktop\Projekt 2020\BusStopSplit.Core\bin\Release\netcoreapp3.0\BusStopSplit.Core.deps.json
+C:\Users\jurem\OneDrive\Desktop\Projekt 2020\BusStopSplit.Core\bin\Release\netcoreapp3.0\BusStopSplit.Core.dll
+C:\Users\jurem\OneDrive\Desktop\Projekt 2020\BusStopSplit.Core\bin\Release\netcoreapp3.0\BusStopSplit.Core.pdb
+C:\Users\jurem\OneDrive\Desktop\Projekt 2020\BusStopSplit.Core\obj\Release\netcoreapp3.0\BusStopSplit.Core.csprojAssemblyReference.cache
+C:\Users\jurem\OneDrive\Desktop\Projekt 2020\BusStopSplit.Core\obj\Release\netcoreapp3.0\BusStopSplit.Core.AssemblyInfoInputs.cache
+C:\Users\jurem\OneDrive\Desktop\Projekt 2020\BusStopSplit.Core\obj\Release\netcoreapp3.0\BusStopSplit.Core.AssemblyInfo.cs
+C:\Users\jurem\OneDrive\Desktop\Projekt 2020\BusStopSplit.Core\obj\Release\netcoreapp3.0\BusStopSplit.Core.dll
+C:\Users\jurem\OneDrive\Desktop\Projekt 2020\BusStopSplit.Core\obj\Release\netcoreapp3.0\BusStopSplit.Core.pdb

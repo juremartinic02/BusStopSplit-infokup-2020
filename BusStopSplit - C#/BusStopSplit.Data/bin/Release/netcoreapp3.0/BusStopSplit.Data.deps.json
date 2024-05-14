@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "BusStopSplit.Data/1.0.0": {
+        "dependencies": {
+          "BusStopSplit.Core": "1.0.0"
+        },
+        "runtime": {
+          "BusStopSplit.Data.dll": {}
+        }
+      },
+      "BusStopSplit.Core/1.0.0": {
+        "runtime": {
+          "BusStopSplit.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BusStopSplit.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BusStopSplit.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

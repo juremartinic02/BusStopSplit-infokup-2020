@@ -1,0 +1,77 @@
+﻿@page
+@model BusStopSplit.Pages.Interface.BusCoverageAreaModel
+@{
+}
+
+@* 
+    Kod za kreiranje stranice koja prikazuje područje pokrivenosti autobusnim linijama Splta i okolice    
+*@
+
+<link rel="stylesheet" href="~/css/TextAttributes.css" />
+<link rel="stylesheet" href="~/css/About.css" />
+<div class="container-fluid" style="border-style:solid; border-color:darkblue; margin-top:20px; margin-bottom:30px;">
+
+
+        <div>
+            <h1 class="busCoverageArea-h1">Bus coverage area</h1>
+        </div>
+
+        <div class="d-flex flex-row bd-highlight mb-3 p-3">
+            <hr class="about-hr1" />
+            <img src="~/Images/bus_station.png" class="about-busStation-img" />
+            <hr class="about-hr2" />
+        </div>
+
+        <div class="container-fluid">
+
+            <div class="row d-flex justify-content-around mt-lg-4">
+                <div class="card busCoverageArea-box col-5">
+                    <a asp-page="/BusCoverageAreaInterface/CityAreaSplit" class="btn busCoverageArea-textInBox"><b>City area Split</b></a>
+                </div>
+                <div class="card busCoverageArea-box col-5">
+                    <a asp-page="/BusCoverageAreaInterface/UrbanAreaSplit" class="btn busCoverageArea-textInBox"><b>Urban area Split</b></a>
+                </div>
+            </div>
+
+            <div class="row d-flex justify-content-around mt-lg-4">
+                <div class="card busCoverageArea-box col-5">
+                    <a asp-page="/BusCoverageAreaInterface/SuburbanAreaSplit" class="btn busCoverageArea-textInBox"><b>Suburban area Split</b></a>
+                </div>
+                <div class="card busCoverageArea-box col-5">
+                    <a asp-page="/BusCoverageAreaInterface/AllBusLinesSplit" class="btn busCoverageArea-textInBox"><b>All bus lines Split</b></a>
+                </div>
+            </div>
+
+            <div class="row d-flex justify-content-around mt-lg-4">
+                <div class="card busCoverageArea-box col-5">
+                    <a asp-page="/BusCoverageAreaInterface/Trogir" class="btn busCoverageArea-textInBox"><b>Trogir</b></a>
+                </div>
+
+                <div class="card busCoverageArea-box col-5">
+                    <a asp-page="/BusCoverageAreaInterface/ŠoltaIsland" class="btn busCoverageArea-textInBox"><b>Šolta island</b></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="d-flex justify-content-around flex-wrap">
+
+            <div>
+                <h3 class="card bus-coverage-area-city">City area network</h3>
+                <div>
+                    <img src="~/Images/Promet1.png" style="width:600px;" />
+                </div>
+                <div>
+                    <img src="~/Images/Promet2.png" style="width:602px; margin-bottom:20px;" />
+                </div>
+            </div>
+
+            <div>
+                <h3 class="card bus-coverage-area-city">Suburban area Split</h3>
+                <div>
+                    <img src="~/Images/Promet3.jpg" style="width:600px;" />
+                </div>
+            </div>
+        </div>
+
+</div>
